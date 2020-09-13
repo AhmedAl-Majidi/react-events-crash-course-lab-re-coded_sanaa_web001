@@ -22,10 +22,10 @@ export default class ChromeBoisDomain extends Component {
    */
     keyDown = (event) => {
       if (event.key === 'a') {
-        resize('a')
+        resize('-')
       }
       if (event.key === 's') {
-        resize('s')
+        resize('-')
       }
     }
 
